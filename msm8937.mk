@@ -358,6 +358,7 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     init.goodix.sh \
     ueventd.qcom.rc \
+    init.msm.usb.configfs.rc \
     init.spectrum.rc \
     init.spectrum.sh
 
