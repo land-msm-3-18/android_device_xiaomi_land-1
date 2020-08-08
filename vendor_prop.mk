@@ -173,7 +173,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
    vendor.iop.enable_prefetch_ofr=1 \
    vendor.perf.iop_v3.enable=1 \
    persist.vendor.qti.games.gt.prof=1 \
-   vendor.perf.workloadclassifier.enable=true \
    vendor.perf.gestureflingboost.enable=true
 
 # SurfaceFlinger sensor props
