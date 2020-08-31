@@ -60,7 +60,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.camera.gyro.android=0 \
     persist.camera.HAL3.enabled=1 \
     persist.camera.is_type=1 \
-    vidc.enc.dcvs.extra-buff-count=2
+    vidc.enc.dcvs.extra-buff-count=2 \
+    persist.ts.rtmakeup=true \
+    media.camera.ts.monotonic=1
 
 # CNE
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -194,6 +196,10 @@ wifi.interface=wlan0
 # Optimize
 PRODUCT_PROPERTY_OVERRIDES += \
 sys.use_fifo_ui=1
+
+# Properties
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.ct.device.model=XMP-2016030
 
 # Zygote preforking
 PRODUCT_PROPERTY_OVERRIDES += \
