@@ -423,9 +423,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service.basic
 
-# QTI Common
-TARGET_COMMON_QTI_COMPONENTS := perf
-
 # Vibrator
 PRODUCT_PACKAGES += \
     android.hardware.vibrator@1.0-impl \
@@ -470,5 +467,3 @@ PRODUCT_PACKAGES += \
     XiaomiParts \
     XiaomiAddon
 
-# Perf
--include vendor/qcom/common/perf/qti-perf.mk
